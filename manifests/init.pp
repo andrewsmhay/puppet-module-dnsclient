@@ -3,9 +3,11 @@
 # This module manages /etc/resolv.conf and is meant to be included in the
 # common class that applies to all systems.
 #
+# Modified by OpenDNS
+#
 class dnsclient                 (
-  $nameservers                 = [ '8.8.8.8',
-                                  '8.8.4.4' ],
+  $nameservers                 = [ '208.67.222.222',
+                                  '208.67.220.220' ],
   $options                     = [ 'rotate',
                                   'timeout:1'],
   $search                      = ['UNSET'],
