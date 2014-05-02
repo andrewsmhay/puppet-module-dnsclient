@@ -30,7 +30,7 @@ nameservers
 -----------
 Array of name servers.
 
-- *Default*: Google's public name servers
+- *Default*: OpenDNS's public name servers
 
 options
 -------
